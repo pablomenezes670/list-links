@@ -9,7 +9,7 @@ const links = [
 
 export default function Listlinks (){
     return(
-        <ul>
+        <ul className="list-links">
             {links.map((item, index)=> (<LinkItem key={index} {...item}/>))}
        </ul>
     )
